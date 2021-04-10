@@ -1,0 +1,137 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+*,
+body,
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    font-family: 'Poiret One',Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    color: #FF7700;
+    font-size: 20px;
+    font-family: 'Lobster',Arial, Helvetica, sans-serif;
+
+}
+
+#row {
+    margin-top: 70px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+
+}
+@media screen and (max-width:992px) {
+
+    #row {
+        display: block;
+        width: 80vw;
+    }
+
+}
+
+#firstCol {
+
+    background-color: white;
+    padding-left: 80px;
+
+}
+
+.firstColinkText {
+    color: black;
+}
+.link {
+    text-decoration: none;
+
+}
+
+.list {
+    list-style: none;
+    margin: 10px;
+}
+
+#firstColList {
+    display: inline-flex;
+    justify-content: end;
+
+}
+#firstColList > li > a {
+    font-size: 13px;
+
+}
+
+#secondCol {
+    background-color: #FF7700;
+}
+
+#secondColNav {
+    color: white;
+}
+
+#secondNavList {
+    display: inline-flex;
+    justify-content: end;
+}
+#secondNavList > li > a {
+    color: white;
+    font-size: 13px;
+}
+
+#display {
+    font-size: 12px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10em;
+    font-size: 16px;
+}
+.p {
+    color: white;
+    background-color: rgb(236, 187, 96);
+    padding: 20px;
+}
+#middleP {
+    background-color: white;
+    padding: 20px;
+    color: #FF7700;
+}
+i {
+    margin: 2px;
+}
+.quickLinks {
+    font-size: 13px;
+    color: #FF7700;
+    border: solid #FF7700 1px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#search {
+    padding: 8px;
+    width: 80%;
+    border-left: solid #FF7700 thin;
+    border-top: none;
+    border-right: none;
+    background-color: white;
+}
+#search::placeholder {
+    font-family: 'Poiret One', Arial, Helvetica, sans-serif;
+}
+#version {
+    float: right;
+    font-size: 12px;
+    margin-right: 15%;
+}
+
+.quote {
+    width: 70%;
+    font-size: 1.5rem;
+}
